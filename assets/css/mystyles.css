@@ -1,0 +1,10 @@
+/*YOUR CUSTOM STYLES*/
+
+h3.judulatas {
+	color: white;
+	font-family: verdana;
+}
+
+div.bg-img {
+	background-image:url(./assets/img/backgrounds/street.jpg);
+}
