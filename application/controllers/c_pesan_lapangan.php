@@ -6,4 +6,9 @@ class C_pesan_lapangan extends CI_Controller {
 		$data['title'] = "Pemesanan | SIFASORA";
 		$this->load->view('view_pesan',$data);
 	}
+
+	public function fasilitas_lapangan(){
+		$data['title'] = "Fasilitas Lapangan | SIFASORA";
+		$this->load->view('view_fasilitas',$data);
+	}
 }

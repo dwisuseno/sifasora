@@ -139,6 +139,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <div class="container">
             <div class="gap"></div>
             <h2 class="text-center">Top Destinations</h2>
@@ -218,9 +219,8 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+    -->
         <!-- Bagian keunggulan2 -->
         <!--
         <div class="bg-color text-white">

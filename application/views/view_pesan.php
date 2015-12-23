@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <h3>Peminjam</h3>
-                    <p>Data diri <a href="#">SIFASORA account</a> untuk booking cepat.</p>
+                    <p>Data diri untuk booking lapangan.</p>
                     <form>
                         <div class="row">
                             <div class="col-md-4">
@@ -60,45 +60,45 @@
                     </form>
                     <hr>
                     <div class="row">
-                        <!--
-                        <div class="col-md-6">
-                            <img class="pp-img" src="img/paypal.png" alt="Image Alternative text" title="Image Title" />
-                            <p>Important: You will be redirected to PayPal's website to securely complete your payment.</p><a class="btn btn-primary">Checkout via Paypal</a>   
-                        </div>
-                    -->
 
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <h4>Form Pemesanan</h4>
                             <form class="cc-form">
                                 <div class="clearfix">
                                     <div class="form-group form-group-cc-number">
                                         <label>Lapangan</label>
-                                        <input class="form-control" placeholder="xxxx xxxx xxxx xxxx" type="text" /><span class="cc-card-icon"></span>
+                                        <input class="form-control" placeholder="" type="text" /><span class="cc-card-icon"></span>
+                                        <br>
+
+                                        <i class="fa fa-plus box-icon-normal box-icon-border-dashed"></i>    
+                                        
+                                    
                                     </div>
                                 </div>
-                                <div class="clearfix">
+                                <div class="clearfix input-daterange">
                                     <div class="form-group form-group-cc-name">
                                         <label>Waktu</label>
-                                        <input class="form-control" type="text" />
+                                        <input class="form-control" name="start" type="text" />
+                                    </div>
+                                    <div class="form-group form-group-cc-name">
+                                        <label>Jam</label>
+                                        <input class="time-pick form-control" type="text" />
                                     </div>
                                 </div>
-                                <div class="checkbox checkbox-small">
-                                    <label>
-                                        <input class="i-check" type="checkbox" checked/>Add to My Cards</label>
-                                </div>
+                            
                                 <button class="btn btn-primary" type="submit" value="" >Pesan</button>
                             </form>
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="col-md-4">
                     <div class="booking-item-payment">
                         <header class="clearfix">
                             <a class="booking-item-payment-img" href="#">
-                                <img src="img/800x600.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="<?php echo base_url()?>assets/img/800x600.png" alt="Image Alternative text" title="4 Strokes of Fun" />
                             </a>
-                            <h5 class="booking-item-payment-title"><a href="#">Adrenaline Madness</a></h5>
+                            <h5 class="booking-item-payment-title"><a href="#">Advertisement</a></h5>
                             <ul class="icon-group booking-item-rating-stars">
                                 <li><i class="fa fa-star"></i>
                                 </li>
@@ -131,6 +131,7 @@
                         </p>
                     </div>
                 </div>
+            
             </div>
             <div class="gap"></div>
         </div>
